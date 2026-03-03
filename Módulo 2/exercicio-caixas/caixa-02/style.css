@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+
+    background-image: url(images/kaique-bateria.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -1;
+    filter: blur(5px) brightness(0.4);
+}
+
+header {
+    margin: auto;
+    background-color: #8b7562;
+    width: 1250px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #cdb7a4;
+    color: #171717;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    box-shadow: #232220;
+
+    width: 1150px;
+    padding: 5px 30px 30px 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+footer {
+    margin: auto;
+    background-color: #8b7562;
+    width: 1250px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.creditos {
+    margin-left: 15px;
+    font-family: 'Roboto';
+}
+
+a {
+    color: rgb(197, 255, 255);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: rgb(142, 255, 255);
+}
+
+.titulo {
+    color: #fff5ec;
+    font-family: 'Roboto';
+    text-shadow: 1px 1px 5px #232220;
+}
+
+.fotos-kaique {
+    width: 250px;
+    margin: 16px;
+    border: #232220 solid 2px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: #1717178a 5px 5px 10px;
+}
+
+.fotos-kaique:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.videos-kaique {
+    width: 250px;
+    margin: 16px;
+    border: #232220 solid 2px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: #1717178a 5px 5px 10px;
+}
+
+.video-kaique {
+    background-color: #c99e79;
+    color: #171717;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+    width: 1150px;
+    padding: 5px 30px 30px 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.videos-legais {
+    background-color: #cdb7a4;
+    color: #171717;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+    width: 1150px;
+    padding: 5px 30px 30px 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.video-horizontal {
+    width: 600px;
+    align-items: center;
+    border: #232220 solid 2px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin: 20px auto 20px auto;
+    display: block;
+    box-shadow: #1717178a 5px 5px 10px;
+}
+
+.icones {
+    width: 10px;
+}
